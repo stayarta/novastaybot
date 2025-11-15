@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Telegraf, Markup } = require('telegraf');
 const express = require('express');
 
-const bot = new Telegraf(process.env.BOT_TOKEN || '7515950614:AAHvctxL9KwS__O9ZVRAEkXY6OKtslyS5n4');
+const bot = new Telegraf(process.env.BOT_TOKEN || '8232435267:AAEzJw81GH5_U3XGFTg87nKiYIllONIGmLc');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
